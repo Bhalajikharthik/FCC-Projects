@@ -1,0 +1,70 @@
+#main{
+    height: 100%;
+    background-color: black;
+}
+
+#img-div{
+    height: auto;
+    color: black;
+    text-align: center;
+
+}
+
+#title{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+    position: absolute;
+    bottom: 200px;
+    left: 450px;
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+
+#info{
+}
+#tribute-info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 110px;
+    margin-right: 350px;
+    font-weight: bold;
+}
+
+.h2{
+    position: relative;
+    left: 110px;
+    font-size: 30px;
+    color: white;
+}
+
+hr{
+    width: 50%;
+    margin-left: 110px;
+}
+
+#tribute-link{
+    text-decoration: none;
+}
+
+#tribute-link:hover{
+    color: red;
+}
+
+img.img-responsive{display:block; max-width: 100%; height:auto;}

@@ -1,0 +1,91 @@
+html,body{
+    min-width:290px;
+      color:black;
+      font-family: 'Open Sans',Arial,sans-serif;
+      line-height: 1.5;
+      background: white;
+}
+#main-doc{
+    position: absolute;
+    top:0;
+    left:140px;
+    width:auto;
+    margin-left: 200px;
+    padding:10px;
+    margin-top: 0;
+    padding:40px;
+    height: auto;
+    overflow-y: scroll;
+
+ }
+.main-section{
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+#navbar{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    border-right: 1px solid;
+    text-align: center;
+    background: linear-gradient(35deg,#ffffff,#cccccc);
+}
+
+#title{
+    border-bottom: solid;
+    z-index: 1;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#navbar ul{
+    overflow-y: scroll;
+    height: 85%;
+}
+nav ul li{
+    padding: 50px;
+    list-style: none;
+    border: 1px solid;
+    width: 60%;
+    padding: 15px;
+    margin: 20px auto;
+    background: linear-gradient(35deg,#ccffff,#ffcccc);
+}
+code{
+    display:block;
+    text-align: left;
+  white-space: pre;
+  position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color:#f7f7f7;
+  padding:15px;
+  margin:10px;
+    border-radius:5px;
+}
+header{
+    font-weight: bold;
+}
+/*responsively scale text */
+
+@media only screen and (max-width: 320px) {
+	body {
+		font-size: 2em;
+	}
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+	.nav-link {
+		padding-top: 15px;
+	}
+	.nav-link a {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,84 @@
+#title{
+    text-align: center;
+    color: rgba(255,255,255,0.95);
+    margin-top: 25px;
+}
+#description{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.85);
+    
+}
+#form-div{
+    background-color: rgba(0,0,0,0.5);
+    height: 1100px;
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#survey-form{
+    margin: 80px 80px;
+    position: absolute;
+}
+#name{
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 300px;
+    border: none;
+}
+#email{
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 300px;
+    border: none;
+}
+#number{
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 400px;
+    border: none;
+}
+#name-label{
+    color: white;
+}
+#email-label{
+    color: white;
+}
+#number-label{
+    color: white;
+}
+#dropdown{
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 325px;
+    border: none;
+}
+#submit{
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 416px;
+    border: none;
+    text-align: center;
+    background: linear-gradient(35deg,#ccffff,#ffcccc);
+    
+    
+}
+
+label{
+    color: white;
+    font-size: large;
+    padding-top: 1px;
+}
+.d1{
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 335px;
+    border: none;
+}
+textarea{
+    border-radius: 5px;
+    border: none;
+}
+
+#submit:hover{
+    background: linear-gradient(35deg,#ffcccc,#ccffff);
+}

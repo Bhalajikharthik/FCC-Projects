@@ -1,0 +1,131 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+}
+#header-img{
+    width: 130px;
+}
+#nav-bar{
+    margin-left: 800px;
+    margin-top: 25px;
+}
+#howitworks{
+    width: 600px;
+    margin: 0 auto;
+}
+#video{
+    height: 300px;
+    width: 500px;
+    margin-left: 75px;
+}
+#div1{
+    position: relative;
+    top: 130px;
+}
+#form{
+    margin: 0 auto;
+    width: 500px;
+}
+#email{
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 200px;
+    border: black;
+    border-style: solid;
+}
+#submit{
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 100px;
+    border: black;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    display: inline;
+    padding: 30px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background: linear-gradient(35deg,#ccffff,#ffcccc);
+}
+label{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    position: relative;
+}
+#mid{
+    display: flex;
+    margin: 30px auto;
+    width: 500px;
+}
+#log{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+}
+#premium{
+    display: flex;
+    font-size: 18px;
+}
+#pricing{
+    display: grid;
+    width: 36%;
+    grid-template-columns: 200px 200px 200px;
+    margin: 50px auto;
+    text-align: center;
+    grid-gap: 10px;
+}
+.acoustic{
+    border-style: solid;
+    padding: 2px;
+}
+.electric{
+    border-style: solid;
+    padding: 2px;
+}
+.semi-electric{
+    border-style: solid;
+    padding: 2px;
+}
+@media (max-height: 800px){
+	p{
+		font-size:15px;
+	}
+}
+#buy{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: linear-gradient(35deg,#ccffff,#ffcccc);
+    border-style: none;
+    border-radius: 2px;
+}
+#features{
+    position: relative;
+    margin-top: 170px;
+}
+#footer{
+    width: 800px;
+    margin-left: 390px;
+    background-color: lightgrey;
+    height: 30px;
+    text-align: end;
+}
